@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,300;1,400&family=Playfair+Display:ital,wght@0,600;1,600&family=Poppins:wght@100;400&family=Raleway&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    height: 80vh;
+    background: url('https://cutt.ly/TzafOyS');
+    background-position: center;
+    color: #fff;
+    text-align: center;
+}
+
+header nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header nav a{
+    color: #bababa;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+    border-bottom: 1px solid #919191;
+}
+
+header .principal{
+    margin-top: 40px;
+}
+
+header .principal h1{
+    margin-top: -10px;
+    padding: 20px;
+}
+
+.presentation{
+    background-color: #222f3e;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.presentation .left{
+    width: 60%;
+    margin-right: 15px;
+}
+
+.offres{
+    padding:30px;
+    background: url('https://cutt.ly/TzaFkYJ');
+    background-position:center;
+    color:#fff;
+  }
+
+.offres h1, .offres p{
+    text-align:center;
+}
+
+.partenaire{
+    padding: 20px;
+    background-color: #222f3e;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+.partenaire .partenaires-images{
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    margin-top: -30px;
+}
+
+.partenaire .partenaires-images p{
+    margin-right: 30px;
+}
+
+.partenaire .partenaires-images p img{
+    height: 40px;
+}
+
+.partenaire h1{
+    text-align: center;
+}
+
+footer{
+    background-color: #18212b;
+    padding: 30px;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .social-media{
+    display: flex;
+}
+
+footer .social-media p{
+    margin-right: 15px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+    text-align: center;
+    width: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .presentation .left{
+        width: 100%;
+        margin-right: 0;
+    }
+    .presentation .right{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+    }
+}
